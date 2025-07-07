@@ -1,0 +1,46 @@
+# Operators 
+# Operators là các ký hiệu được sử dụng để thực hiện các phép toán trên các giá trị hoặc biến.
+# Các loại toán tử trong Python:
+# 1. Toán tử số học (Arithmetic Operators): +, -, *, /, //, %, ** (lũy thừa)
+# 2. Toán tử so sánh (Comparison Operators): ==, !=, >, <, >=, <=
+# 3. Toán tử logic (Logical Operators): and, or, not
+# 4. Toán tử gán (Assignment Operators): =, +=, -=, *=, /=, //=, %=, **=
+# 5. Toán tử bitwise (Bitwise Operators): &, |, ^, ~, <<, >>
+# 6. Toán tử thành viên (Membership Operators): in, not in
+# 7. Toán tử danh tính (Identity Operators): is, is not
+# 8. Toán tử điều kiện (Conditional Operators): if, else, elif
+# 9. Toán tử chuỗi (String Operators): + (nối chuỗi), * (lặp chuỗi)
+# 10. Toán tử danh sách (List Operators): + (nối danh sách), * (lặp danh sách)
+# 11. Toán tử từ điển (Dictionary Operators): in, not in
+# 12. Toán tử tập hợp (Set Operators): | (hợp), & (giao), - (hiệu), ^ (đối xứng)
+# 13. Toán tử điều kiện ba ngôi (Ternary Operator): a if condition else b  
+# 14. Toán tử chuỗi định dạng (String Formatting Operators): %, .format(), f-strings
+# 15. Toán tử kiểm tra kiểu dữ liệu (Type Checking Operators): isinstance(), type()
+# 16. Toán tử kiểm tra giá trị rỗng (Empty Check Operators): if not value, if value
+# 17. Toán tử kiểm tra giá trị None (None Check Operators): if value is None, if value is not None
+# 18. Toán tử kiểm tra giá trị rỗng trong chuỗi (Empty String Check Operators): if not string, if string
+# 19. Toán tử kiểm tra giá trị rỗng trong danh sách (Empty List Check Operators): if not list, if list
+# 20. Toán tử kiểm tra giá trị rỗng trong từ điển (Empty Dictionary Check Operators): if not dict, if dict
+# 21. Toán tử kiểm tra giá trị rỗng trong tập hợp (Empty Set Check Operators): if not set, if set
+# 22. Toán tử kiểm tra giá trị rỗng trong tuple (Empty Tuple Check Operators): if not tuple, if tuple
+# 23. Toán tử kiểm tra giá trị rỗng trong số (Empty Number Check Operators): if not number, if number
+# 24. Toán tử kiểm tra giá trị rỗng trong boolean (Empty Boolean Check Operators): if not boolean, if boolean
+# 25. Toán tử kiểm tra giá trị rỗng trong None (Empty None Check Operators): if not None, if None
+# 26. Toán tử kiểm tra giá trị rỗng trong hàm (Empty Function Check Operators): if not function, if function
+# 27. Toán tử kiểm tra giá trị rỗng trong lớp (Empty Class Check Operators): if not class, if class
+# 28. Toán tử kiểm tra giá trị rỗng trong đối tượng (Empty Object Check Operators): if not object, if object
+# 29. Toán tử kiểm tra giá trị rỗng trong module (Empty Module Check Operators): if not module, if module
+# 30. Toán tử kiểm tra giá trị rỗng trong gói (Empty Package Check Operators): if not package, if package
+# 31. Toán tử kiểm tra giá trị rỗng trong thư viện (Empty Library Check Operators): if not library, if library
+# 32. Toán tử kiểm tra giá trị rỗng trong API (Empty API Check Operators): if not api, if api
+# 33. Toán tử kiểm tra giá trị rỗng trong cơ sở dữ liệu (Empty Database Check Operators): if not database, if database      
+# 34. Toán tử kiểm tra giá trị rỗng trong tệp (Empty File Check Operators): if not file, if file
+# 35. Toán tử kiểm tra giá trị rỗng trong thư mục (Empty Directory Check Operators): if not directory, if directory
+# 36. Toán tử kiểm tra giá trị rỗng trong đường dẫn (Empty Path Check Operators): if not path, if path
+# 37. Toán tử kiểm tra giá trị rỗng trong URL (Empty URL Check Operators): if not url, if url
+# 38. Toán tử kiểm tra giá trị rỗng trong email (Empty Email Check Operators): if not email, if email
+# 39. Toán tử kiểm tra giá trị rỗng trong số điện thoại (Empty Phone Check Operators): if not phone, if phone
+# 40. Toán tử kiểm tra giá trị rỗng trong địa chỉ (Empty Address Check Operators): if not address, if address
+# 41. Toán tử kiểm tra giá trị rỗng trong ngày tháng (Empty Date Check Operators): if not date, if date
+# 42. Toán tử kiểm tra giá trị rỗng trong thời gian (Empty Time Check Operators): if not time, if time
+# 43. Toán tử kiểm tra giá trị rỗng trong ngày giờ (Empty DateTime Check Operators): if not datetime, if datetime

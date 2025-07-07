@@ -1,0 +1,37 @@
+Trong Python, các giá trị có thể được đánh giá là **True** hoặc **False** khi dùng trong điều kiện (`if`, `while`, v.v.).  
+Các giá trị này gọi là **truthy** (được coi là True) hoặc **falsy** (được coi là False).
+
+### Các giá trị **falsy** (được coi là False):
+- `None`
+- `False`
+- Số 0 của mọi kiểu: `0`, `0.0`, `0j`
+- Chuỗi rỗng: `''`
+- List rỗng: `[]`
+- Tuple rỗng: `()`
+- Dict rỗng: `{}`
+- Set rỗng: `set()`
+- Các object tự định nghĩa mà có `__bool__` hoặc `__len__` trả về `False` hoặc `0`
+
+### Các giá trị **truthy** (được coi là True):
+- Bất kỳ giá trị nào **không nằm trong danh sách trên** đều là truthy, ví dụ:  
+  `'a'`, `1`, `[1, 2]`, `(0,)`, `{'x': 1}`, `True`, v.v.
+
+### Giải thích:
+- Python dùng hàm `bool()` để chuyển giá trị sang True/False.
+- Nếu giá trị là "rỗng" hoặc "không có gì" (như `None`, `''`, `[]`, `0`), nó là **falsy**.
+- Nếu giá trị có nội dung, số khác 0, chuỗi không rỗng, v.v., nó là **truthy**.
+
+**Ví dụ:**
+```python
+print(bool(''))    # False
+print(bool(None))  # False
+print(bool('a'))   # True
+print(bool(1))     # True
+print(bool([]))    # False
+print(bool([0]))   # True
+```
+
+**Tóm lại:**  
+- `'a'` hoặc `1` là **truthy**  
+- `''` hoặc `None` là **falsy**  
+- Ngoài ra, các kiểu rỗng hoặc số 0 cũng là falsy.
