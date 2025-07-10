@@ -11,6 +11,6 @@ numbers = [1 , 2 , 3 ,4]
 # numbers.clear()
 a = numbers.copy()  # Tạo bản sao của danh sách
 # print(a.sort(reverse=True))
-print(a.count(200))  # Đếm số lần xuất hiện của giá trị 2 trong danh sách
-print(a.index(3))  # Trả về chỉ số của phần tử đầu tiên có giá trị 2 trong danh sách
+print(a.count(2))  # Đếm số lần xuất hiện của giá trị 2 trong danh sách
+print(a.index(3))  # Trả về chỉ số của phần tử đầu tiên có giá trị 3 trong danh sách
 print(numbers)
