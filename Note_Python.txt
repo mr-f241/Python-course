@@ -1,0 +1,4 @@
+sorted là một hàm trong Python trả về một danh sách đã được sắp xếp.
+    + Dùng sorted() khi bạn muốn giữ nguyên dữ liệu gốc.
+    + Dùng .sort() khi bạn muốn sắp xếp trực tiếp danh sách đó và không cần dùng bản cũ nữa.
+

@@ -5,7 +5,6 @@ icon_heart = ['❤️']
 lst2 = ['Trân']
 love = lst1 + icon_heart + lst2
 print(love)
-
 # Cách 2 : extend 
 '''
 nó chỉ có thể nối một list vào list gốc  nếu muốn thêm thì lại nối thêm một cái mói 
